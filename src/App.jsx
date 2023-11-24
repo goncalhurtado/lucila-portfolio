@@ -1,13 +1,14 @@
 import { useState } from "react";
-
-import "./App.css";
+import Navegation from "./components/Navegation";
+import About from "./pages/About";
+import Footer from "./components/Footer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div></div>
+      <Navegation />
+      <About />
+      <Footer />
     </>
   );
 }
