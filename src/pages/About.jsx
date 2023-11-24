@@ -6,7 +6,7 @@ import { WorkExperience } from "../components/about/WorkExperience";
 
 const About = () => {
   return (
-    <div>
+    <div className="container">
       <h1>
         Hi! I’m Lucila,
         <br /> Digital product designer

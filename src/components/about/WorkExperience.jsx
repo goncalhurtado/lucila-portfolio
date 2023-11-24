@@ -4,10 +4,10 @@ import WorkTable from "./WorkTable";
 export const WorkExperience = () => {
   return (
     <div>
-      <h3>
+      <h2>
         Work <br />
         experience
-      </h3>
+      </h2>
       <div className="row">
         <div className="col-4"></div>
         <div className="col-8">

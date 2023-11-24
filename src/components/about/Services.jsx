@@ -6,7 +6,7 @@ const Services = () => {
     <>
       <div className="row">
         <div className="col">
-          <h3>Services</h3>
+          <h2>Services</h2>
         </div>
         <div className="col">
           <h5>{strategy.title}</h5>
