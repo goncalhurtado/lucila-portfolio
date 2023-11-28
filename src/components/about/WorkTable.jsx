@@ -2,23 +2,44 @@ import React from "react";
 import DataTable from "react-data-table-component";
 import { dataWork } from "../../data/dataWork";
 
+const customStyles = {
+  headCells: {
+    style: {
+      borderTop: "none !important",
+    },
+  },
+  cells: {
+    style: {
+      borderTop: "solid 1px #4565FF ",
+      borderBottom: "solid 1px #4565FF",
+      backgroundColor: "#4565FF",
+      color: "#FFFFFF",
+    },
+  },
+};
+
 const WorkTable = () => {
   const columns = [
     {
-      name: "",
-      selector: (row) => row.date,
+      selector: (row) => (
+        <h4 className="pe-4" style={{ fontSize: "18px" }}>
+          {row.date}
+        </h4>
+      ),
+      width: "140px",
     },
     {
-      name: "",
-      selector: (row) => row.company,
+      selector: (row) => <p style={{ fontSize: "19px" }}>{row.company}</p>,
+      width: "250px",
     },
     {
-      name: "",
-      selector: (row) => row.rol,
+      selector: (row) => <p style={{ fontSize: "19px" }}>{row.rol}</p>,
     },
   ];
 
-  return <DataTable data={dataWork} columns={columns} />;
+  return (
+    <DataTable data={dataWork} columns={columns} customStyles={customStyles} />
+  );
 };
 
 export default WorkTable;

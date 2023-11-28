@@ -1,29 +1,22 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import { BsLinkedin } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 const Navegation = () => {
   const navigate = useNavigate();
   return (
-    <>
-      <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">LDS</Navbar.Brand>
-          <Nav className="justify-content-end">
-            <Nav.Link onClick={() => navigate("/")}>About</Nav.Link>
-            <Nav.Link onClick={() => navigate("/portfolio")}>
-              Portfolio
-            </Nav.Link>
-            <Nav.Link>
-              <BsLinkedin />
-            </Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
+    <div className="">
+      <div className="navBar">
+        <div className="navBar__home">LDS</div>
+        <div className="navBar__links">
+          <a onClick={() => navigate("/")}>About</a>
+          <a onClick={() => navigate("/portfolio")}>Portfolio</a>
+          <a>
+            <FaLinkedinIn className="mb-1" size={18} />
+          </a>
+        </div>
+      </div>
+    </div>
   );
 };
 

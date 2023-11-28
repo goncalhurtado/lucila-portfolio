@@ -1,0 +1,47 @@
+body {
+    background-color: $primary-color;
+    color: $text-color;
+}
+
+h1 {
+    font-family: 'ITC Avant Garde Gothic Bold';
+    font-size: 67px;
+    line-height: 88px;
+    font-weight: 700;
+    margin: 0px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+h2 {
+    font-family: 'ITC Avant Garde Gothic Bold';
+    font-size: 37px;
+}
+
+h4 {
+    font-family: 'ITC Avant Garde Gothic Bold';
+    font-size: 18px;
+}
+
+p {
+    font-family: "omnes";
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 46px;
+}
+
+li {
+    font-family: "omnes";
+    font-weight: 300;
+    font-size: 19px;
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a {
+    font-family: "omnes";
+    font-weight: 300;
+}
+
+//navbar 25  51

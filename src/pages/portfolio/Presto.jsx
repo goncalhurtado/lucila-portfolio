@@ -10,7 +10,7 @@ const Presto = () => {
   const { title, objetive, description, keyProblems } = presto;
 
   return (
-    <div className="container">
+    <div className="containerBase">
       <div className="text-center">
         <h5>{title}</h5>
         <h2>{objetive}</h2>

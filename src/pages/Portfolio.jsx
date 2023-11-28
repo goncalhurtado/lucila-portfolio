@@ -6,7 +6,7 @@ const Portfolio = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="container">
+    <div className="containerBase">
       <div
         className="btn btn-primary"
         onClick={() => navigate("/portfolio/presto")}

@@ -1,0 +1,14 @@
+$primary-color: #4565FF;
+$text-color: #FFFFFF;
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic';
+    src: url("../../../public/assets/font/ITC\ Avant\ Garde\ Gothic\ Pro-Medium.otf");
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Bold';
+    src: url("../../../public/assets/font/ITC\ Avant\ Garde\ Gothic\ Pro-Bold.otf");
+}
+
+@import url('https://fonts.cdnfonts.com/css/omnes-2');

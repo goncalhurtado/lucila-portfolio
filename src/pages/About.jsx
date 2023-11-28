@@ -6,29 +6,39 @@ import { WorkExperience } from "../components/about/WorkExperience";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="containerBase">
       <h1>
         Hi! I’m Lucila,
         <br /> Digital product designer
       </h1>
-      <p>Based in Buenos Aires</p>
-      <hr />
+      <p className="basedAbout">Based in Buenos Aires</p>
+      <h1 className="m-0 hr">—</h1>
       <div>
         <Profile />
       </div>
-      <div>
-        <h1>
+      <div className="contenWraper">
+        <h1 className="textAbout ">
           Understanding the problem and crafting solutions that align with the
           needs of both <strong>users and businesses.</strong>
         </h1>
       </div>
-      <div>
+      <div
+        style={{
+          paddingTop: "80px",
+        }}
+      >
         <Services />
       </div>
-      <div>
+      <div className="contenWraper">
         <WorkExperience />
       </div>
-      <div>
+      <div
+        // className="contenWraper"
+        style={{
+          paddingTop: "40px",
+          paddingBottom: "80px",
+        }}
+      >
         <Contact />
       </div>
     </div>
