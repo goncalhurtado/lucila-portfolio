@@ -7,12 +7,14 @@ import { WorkExperience } from "../components/about/WorkExperience";
 const About = () => {
   return (
     <div className="containerBase">
-      <h1>
-        Hi! I’m Lucila,
-        <br /> Digital product designer
-      </h1>
-      <p className="basedAbout">Based in Buenos Aires</p>
-      <h1 className="m-0 hr">—</h1>
+      <div className="containerAbout">
+        <h1>
+          Hi! I’m Lucila,
+          <br /> Digital product designer
+        </h1>
+        <p className="basedAbout">Based in Buenos Aires</p>
+        <h1 className="m-0 hr">—</h1>
+      </div>
       <div>
         <Profile />
       </div>
