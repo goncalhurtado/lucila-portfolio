@@ -4,7 +4,7 @@ const Profile = () => {
   return (
     <>
       <div className="row">
-        <div className="col-12 col-md-6">
+        <div className="imgProfileCont col-12 col-md-6">
           <img
             src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1700865769/tiliportoflio/tili_1_y5xniu.png"
             alt="profile pic Lucila"

@@ -19,9 +19,13 @@ const About = () => {
         <Profile />
       </div>
       <div className="contenWraper">
-        <h1 className="textAbout ">
+        <h1 className="textAbout">
           Understanding the problem and crafting solutions that align with the
-          needs of both <strong>users and businesses.</strong>
+          needs of both <mark>users and businesses.</mark>
+        </h1>
+        <h1 className="textAboutMb">
+          Understanding the problem and crafting solutions that align with the
+          needs of both <mark>users and</mark> <mark>businesses.</mark>
         </h1>
       </div>
       <div

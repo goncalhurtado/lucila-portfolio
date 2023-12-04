@@ -21,11 +21,29 @@ h1 {
 h2 {
     font-family: 'ITC Avant Garde Gothic Bold';
     font-size: 37px;
+
+    @media (max-width: 600px) {
+        font-size: 29px;
+        // line-height: 65px;
+    }
 }
 
 h4 {
     font-family: 'ITC Avant Garde Gothic Bold';
     font-size: 18px;
+
+    @media (max-width: 600px) {
+        font-size: 16px;
+        // line-height: 65px;
+    }
+}
+
+mark {
+    background-color: #1AC4CE;
+    color: #FFFFFF;
+    display: inline-block;
+    align-self: center;
+    line-height: 0.60;
 }
 
 p {
