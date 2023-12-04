@@ -4,8 +4,8 @@ export const strategy = {
     "items": [
         "Business design",
         "Product thinking",
-        "Information",
-        "architecture",
+        "Information architecture",
+
         "User Research"
     ]
 }

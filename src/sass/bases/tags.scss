@@ -11,16 +11,39 @@ h1 {
     margin: 0px;
     margin-top: 36px;
     margin-bottom: 36px;
+
+    @media (max-width: 600px) {
+        font-size: 50px;
+        line-height: 65px;
+    }
 }
 
 h2 {
     font-family: 'ITC Avant Garde Gothic Bold';
     font-size: 37px;
+
+    @media (max-width: 600px) {
+        font-size: 29px;
+        // line-height: 65px;
+    }
 }
 
 h4 {
     font-family: 'ITC Avant Garde Gothic Bold';
     font-size: 18px;
+
+    @media (max-width: 600px) {
+        font-size: 16px;
+        // line-height: 65px;
+    }
+}
+
+mark {
+    background-color: #1AC4CE;
+    color: #FFFFFF;
+    display: inline-block;
+    align-self: center;
+    line-height: 0.60;
 }
 
 p {
@@ -28,6 +51,11 @@ p {
     font-weight: 300;
     font-size: 26px;
     line-height: 46px;
+
+    @media (max-width: 600px) {
+        font-size: 21px;
+        line-height: 40px;
+    }
 }
 
 li {

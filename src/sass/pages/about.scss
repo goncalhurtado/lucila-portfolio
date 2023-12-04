@@ -3,6 +3,21 @@
     padding-bottom: 84px;
 }
 
+.containerBase {
+    width: 100% !important;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+
+    @media (max-width: 414px) {
+        padding-left: 6vw !important;
+        padding-right: 6vw !important;
+    }
+}
+
+.containerAbout {
+    font-size: 50px;
+}
+
 .basedAbout {
     margin-top: 18px !important;
     margin-bottom: 18px !important;
@@ -15,12 +30,38 @@
 
 .textAbout {
     width: 1014px;
+    display: block;
 
-    strong {
-        background-color: #1AC4CE;
-        display: inline-block;
-        height: 100% !important;
-        // padding-top: -50px !important;
+    @media (max-width: 414px) {
+        display: none;
+    }
+}
+
+.textAboutMb {
+    display: none;
+
+    @media (max-width: 414px) {
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        font-size: 45px;
+        word-wrap: break-word;
+    }
+}
+
+// Services
+.servicesCont {
+
+    // h2 {
+    //     margin-bottom: 50px;
+    // }
+    .col-12 {
+        margin-bottom: 50px;
+    }
+
+    li {
+        font-size: 16px;
     }
 }
 

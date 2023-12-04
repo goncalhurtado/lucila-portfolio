@@ -1,4 +1,23 @@
 .profilePic {
     width: 620px;
     height: 606px;
+
+    @media (max-width: 414px) {
+        width: 343px;
+        height: 350px;
+        display: flex;
+
+        .imgProfileCont {
+            display: flex;
+            justify-content: center;
+            background-color: red;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.imgProfileCont {
+    display: flex;
+    justify-content: center;
 }
