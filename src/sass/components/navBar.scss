@@ -69,14 +69,46 @@
         a {
             color: $text-color !important;
             font-size: 35px;
+            animation: myAnim 1s ease 0s 1 normal forwards;
+        }
+
+        .activeLink {
+            color: $text-color !important;
+            font-size: 35px;
+            background-color: red;
         }
 
         .linkedinMobile {
             position: absolute;
             bottom: 0;
             left: 50%;
-            transform: translateX(-50%);
+            color: $text-color !important;
+            animation: myAnim2 1s ease 0s 1 normal forwards;
             margin-bottom: 20px;
         }
+    }
+}
+
+@keyframes myAnim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes myAnim2 {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) translateX(-50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) translateX(-50%);
     }
 }

@@ -1,7 +1,5 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
 import { useState } from "react";
 
 const NavMobile = ({ navigate }) => {
@@ -37,9 +35,9 @@ const NavMobile = ({ navigate }) => {
           >
             Portfolio
           </a>
-          <a>
+          <div>
             <FaLinkedinIn className="linkedinMobile" size={30} />
-          </a>
+          </div>
         </div>
       </div>
     </>
