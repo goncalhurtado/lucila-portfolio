@@ -18,6 +18,16 @@
 
         a {
             margin-left: 20px;
+            cursor: pointer;
+            color: $text-color;
+            text-decoration: none;
+        }
+
+        &__active {
+            color: $text-color;
+            cursor: pointer;
+            padding-bottom: 5px;
+            border-bottom: solid 1.5px $text-color;
         }
     }
 }
