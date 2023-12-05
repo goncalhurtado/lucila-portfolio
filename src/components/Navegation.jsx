@@ -1,9 +1,10 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import NavMobile from "./NavMobile";
 
 const Navegation = () => {
+  const location = useLocation();
   const navigate = useNavigate();
   return (
     <div className="">
@@ -11,8 +12,24 @@ const Navegation = () => {
         <div className="navBar">
           <div className="navBar__home">LDS</div>
           <div className="navBar__links">
-            <a onClick={() => navigate("/")}>About</a>
-            <a onClick={() => navigate("/portfolio")}>Portfolio</a>
+            <a
+              className={
+                location.pathname === "/" ? "navBar__links__active" : ""
+              }
+              onClick={() => navigate("/")}
+            >
+              About
+            </a>
+            <a
+              className={
+                location.pathname === "/portfolio"
+                  ? "navBar__links__active"
+                  : ""
+              }
+              onClick={() => navigate("/portfolio")}
+            >
+              Portfolio
+            </a>
             <a>
               <FaLinkedinIn className="mb-1" size={18} />
             </a>

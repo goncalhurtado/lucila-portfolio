@@ -1,0 +1,64 @@
+.portfolio {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    @media (max-width: 414px) {
+        flex-direction: column;
+    }
+
+    &__project {
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+
+        @media (max-width: 414px) {
+            display: flex;
+            flex-direction: column;
+        }
+
+        img {
+            width: 580px;
+            z-index: 0;
+
+            @media (max-width: 414px) {
+                width: 100%;
+            }
+        }
+
+        &__span {
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 50%;
+            left: 50%;
+            color: white;
+            transform: translate(-50%, -50%);
+            transition: opacity ease 200ms;
+
+            @media (max-width: 414px) {
+                display: flex;
+                flex-direction: column;
+            }
+
+            h2 {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        &:hover &__span {
+            width: 100%;
+            background-color: #425de6e7;
+            position: absolute;
+            opacity: 1;
+            z-index: 0;
+            transition: opacity ease 200ms;
+        }
+    }
+}
