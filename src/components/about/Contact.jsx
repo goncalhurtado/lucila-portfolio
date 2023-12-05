@@ -7,6 +7,7 @@ const Contact = () => {
       <div className="contentContact">
         <p>Got a project in mind?</p>
         <p>Please don't hesitate to reach out and I'll get back to you soon.</p>
+
         <a>ludiazspolita@gmail.com</a>
       </div>
     </>
