@@ -1,11 +1,12 @@
-html {
+html,
+body {
     box-sizing: border-box;
     padding: 0!important;
     margin: 0!important;
+    overflow-x: hidden;
 }
 
-body {
-    box-sizing: border-box;
+:root {
     padding: 0!important;
     margin: 0!important;
 }
