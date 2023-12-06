@@ -1,7 +1,10 @@
 .prestoTextCont {
-    width: 700px;
+    width: 770px;
     margin: auto;
 
+    // display: flex;
+    // justify-content: center;
+    // flex-direction: column;
     @media (max-width: 600px) {
         width: 100%;
     }
@@ -15,6 +18,7 @@
     }
 
     p {
+        width: 100%;
         font-size: 19px;
         line-height: 35px;
     }
@@ -27,18 +31,33 @@
     width: 100%;
     height: 400px;
 
+    @media (max-width: 600px) {
+        position: initial;
+        width: 100%;
+        height: 100%;
+    }
+
     &__img {
         position: absolute;
+
+        @media (max-width: 600px) {
+            position: initial;
+        }
 
         img {
             width: 820px;
             height: 400px;
+
+            @media (max-width: 600px) {
+                width: 364px;
+                height: 234px;
+            }
         }
     }
 
     &__text {
-        width: 525px;
-        height: 175px;
+        width: 526px;
+        height: 170px;
         position: absolute;
         right: 0;
         top: 50%;
@@ -50,15 +69,32 @@
         justify-content: center;
         align-items: center;
 
+        @media (max-width: 600px) {
+            margin-top: 15px;
+            width: 364px;
+            height: 200px;
+            position: initial;
+            position: initial;
+            right: initial;
+            top: initial;
+            transform: none;
+        }
+
         h4 {
-            font-size: 19px;
-            line-height: 30px;
-            width: 440px;
-            height: 175px;
+            font-size: 18px;
+            line-height: 27px;
+            width: 100%;
+            padding: 35px;
+            height: 81px;
             text-align: start;
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @media (max-width: 600px) {
+                font-size: 16px;
+                padding: 20px;
+            }
         }
     }
 }

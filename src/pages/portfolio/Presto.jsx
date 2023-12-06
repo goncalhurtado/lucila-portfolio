@@ -13,7 +13,7 @@ const Presto = () => {
     <div
       className="containerBase"
       style={{
-        marginTop: "80px",
+        marginTop: "118px",
       }}
     >
       <div className="text-center prestoTextCont">
@@ -31,8 +31,8 @@ const Presto = () => {
         </div>
         <div className="contPrest1__text">
           <h4 className="">
-            The app brings to the user custom treatment for mental health issues
-            and also helps professionals identify severe cases quickly
+            The mobile app brings to the user custom treatment for mental health
+            issues and also helps professionals identify severe cases quickly
           </h4>
         </div>
       </div>
