@@ -21,6 +21,8 @@ h1 {
 h2 {
     font-family: 'ITC Avant Garde Gothic Bold';
     font-size: 37px;
+    line-height: 51px;
+    font-weight: 700;
 
     @media (max-width: 600px) {
         font-size: 29px;

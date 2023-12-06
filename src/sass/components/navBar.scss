@@ -1,15 +1,14 @@
 .navBar {
     display: flex;
     justify-content: space-between;
-    padding: 25px 51px;
+    padding: 10px 45px;
     align-items: center;
-    // margin-bottom: 80px;
-    margin-bottom: 106px;
 
     &__home {
         margin: 10px;
-        font-size: 33px;
-        font-weight: 900;
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 48px;
     }
 
     &__links {

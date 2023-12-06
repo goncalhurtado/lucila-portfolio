@@ -6,7 +6,12 @@ import { WorkExperience } from "../components/about/WorkExperience";
 
 const About = () => {
   return (
-    <div className="containerBase">
+    <div
+      className="containerBase"
+      style={{
+        marginTop: "108px",
+      }}
+    >
       <div className="containerAbout">
         <h1>
           Hi! I’m Lucila,

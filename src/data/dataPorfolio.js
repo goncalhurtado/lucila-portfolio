@@ -1,23 +1,35 @@
 export const presto = {
-    "title": "Presto",
-    "objetive": "Built to optimize the professional attention on mental health cases",
-    "description": "Conducted by the Clinic Foundation in Barcelona, Presto is a multidisciplinary project that seeks to optimize care for mental health problems by integrating data science, mobile digital technologies, and artificial intelligence.",
-    "keyProblems": [{
-            "number": "#1",
-            "title": "Too many consultations",
-            "description": "Insufficient numbers of professionals result in long waiting lists, preventing early treatments and interventions for users awaiting their appointments. Additionally, professionals may not be able to provide early attention to the cases that require it.",
-        },
-        {
-            "number": "#2",
-            "title": "People need psychoeducation",
-            "description": "Stigma can prevent people from seeking help, and not everyone can afford mental health treatment. Therefore, psychoeducating people is essential to improve their lives, even outside of a hospital.",
-        },
-        {
-            "number": "#3",
-            "title": "Difficulties in tracking progress",
-            "description": "The usage of a conversational bot for the entire user journey was content-heavy for users and posed challenges for doctors in tracking their patients' progress.",
-        }
-    ]
+
+    info: {
+        "title": "Presto",
+        "objetive": "Built to optimize the professional attention on mental health cases",
+        "description": "Conducted by the Clinic Foundation in Barcelona, Presto is a multidisciplinary project that seeks to optimize care for mental health problems by integrating data science, mobile digital technologies, and artificial intelligence.",
+        "keyProblems": [{
+                "number": "#1",
+                "title": "Too many consultations",
+                "description": "Insufficient numbers of professionals result in long waiting lists, preventing early treatments and interventions for users awaiting their appointments. Additionally, professionals may not be able to provide early attention to the cases that require it.",
+            },
+            {
+                "number": "#2",
+                "title": "People need psychoeducation",
+                "description": "Stigma can prevent people from seeking help, and not everyone can afford mental health treatment. Therefore, psychoeducating people is essential to improve their lives, even outside of a hospital.",
+            },
+            {
+                "number": "#3",
+                "title": "Difficulties in tracking progress",
+                "description": "The usage of a conversational bot for the entire user journey was content-heavy for users and posed challenges for doctors in tracking their patients' progress.",
+            }
+        ]
+
+    },
+
+    aproach: {
+        "title": "Approach",
+        "description": "After a deep review and understanding of all the problems, opportunities, users, and competition, we defined with the Presto team the list of main functionalities for the patients.",
+        "list": ["Analysis of the current app (Vicky bot)", "Competition analysis", "Understand different users and goals: Patients and Professionals", "Analyze opportunities to improve usability.", "Define a roadmap, calendar, and even a glossary for better communication between the people involved"]
+
+    }
+
 
 }
 

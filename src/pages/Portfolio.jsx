@@ -6,7 +6,12 @@ const Portfolio = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="containerBase">
+    <div
+      className="containerBase"
+      style={{
+        marginTop: "50px",
+      }}
+    >
       <div className="portfolio">
         <div
           className="portfolio__project"
