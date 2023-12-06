@@ -7,7 +7,9 @@ import { useNavigate } from "react-router-dom";
 const Presto = () => {
   const navigate = useNavigate();
 
-  const { title, objetive, description, keyProblems } = presto;
+  const { info, aproach } = presto;
+
+  const { title, objetive, description, keyProblems } = info;
 
   return (
     <div
@@ -41,19 +43,29 @@ const Presto = () => {
         <h2 className="text-center">Key problems</h2>
         <KeyProblems keyProblems={keyProblems} />
       </div>
-      <div className="row">
-        <div className="col">
-          <div className="text-center">
-            <h2>Approach</h2>
-            <p>
-              After a deep review and understanding of all the problems,
-              opportunities, users, and competition, we defined with the Presto
-              team the list of main functionalities for the patients.
-            </p>
-          </div>
+      <div className="row aproachCont">
+        <div className="col-6 aproachCont__text">
+          <h2>{aproach.title}</h2>
+          <ul>
+            {aproach.list.map((item, index) => (
+              <>
+                <li key={index}>{item}</li>
+              </>
+            ))}
+          </ul>
+          <p>{aproach.description}</p>
         </div>
-        <div className="col">
-          <img src="" alt="imagenPresto2" />
+        <div className="col-6 aproachCont__imgs">
+          <img
+            src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791196/tiliportoflio/presto/Project-Presto-4_ebjlmm.png"
+            alt="imagenPresto2"
+            className="aproachCont__imgs__img1"
+          />
+          <img
+            src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791196/tiliportoflio/presto/Project-Presto-3_pp48ko.png"
+            alt="imagenPresto3"
+            className="aproachCont__imgs__img2"
+          />
         </div>
       </div>
       <div className="text-center">
@@ -69,13 +81,13 @@ const Presto = () => {
       </div>
       <div className="row">
         <div className="col-6">
-          <img src="" alt="imagenPresto3" />
-        </div>
-        <div className="col-6">
           <img src="" alt="imagenPresto4" />
         </div>
-        <div className="col-12">
+        <div className="col-6">
           <img src="" alt="imagenPresto5" />
+        </div>
+        <div className="col-12">
+          <img src="" alt="imagenPresto6" />
         </div>
       </div>
       <div className="text-center">
@@ -92,8 +104,8 @@ const Presto = () => {
         </p>
       </div>
       <div className="d-flex flex-column">
-        <img src="" alt="imagenPresto6" />
         <img src="" alt="imagenPresto7" />
+        <img src="" alt="imagenPresto8" />
       </div>
       <div className="text-end">
         <div
