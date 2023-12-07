@@ -70,7 +70,7 @@ const Presto = () => {
           />
         </div>
       </div>
-      <div className="text-center">
+      <div className="text-center prestoTextCont" style={{ marginTop: "80px" }}>
         <h2>An onboarding that emulates the professional practice</h2>
         <p>
           In their daily lives, professionals begin gathering basic information
@@ -82,17 +82,29 @@ const Presto = () => {
         </p>
       </div>
       <div className="row">
-        <div className="col-6">
-          <img src="" alt="imagenPresto4" />
+        <div className="col-sm-6 col-12">
+          <img
+            src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791196/tiliportoflio/presto/Project-Presto5_tz6eld.png"
+            alt="imagenPresto4"
+            className="imgPresto4"
+          />
         </div>
-        <div className="col-6">
-          <img src="" alt="imagenPresto5" />
+        <div className="col-sm-6 col-12">
+          <img
+            src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791197/tiliportoflio/presto/Project-Presto-6_xuz2kq.png"
+            alt="imagenPresto5"
+            className="imgPresto5"
+          />
         </div>
         <div className="col-12">
-          <img src="" alt="imagenPresto6" />
+          <img
+            src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791196/tiliportoflio/presto/Project-Presto-7_gfflud.png"
+            alt="imagenPresto6"
+            className="imgPresto6"
+          />
         </div>
       </div>
-      <div className="text-center">
+      <div className="text-center prestoTextCont" style={{ marginTop: "80px" }}>
         <h2>Custom treatment plan</h2>
         <p>
           During the wireframing phase, we found that we would need the users to
@@ -106,8 +118,24 @@ const Presto = () => {
         </p>
       </div>
       <div className="d-flex flex-column">
-        <img src="" alt="imagenPresto7" />
-        <img src="" alt="imagenPresto8" />
+        <img
+          src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791197/tiliportoflio/presto/Project-Presto-8_pehfwr.png"
+          alt="imagenPresto7"
+          className="imgPresto7"
+        />
+        <img
+          src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791197/tiliportoflio/presto/Project-Presto-9_u0ip62.png"
+          alt="imagenPresto8"
+          className="imgPresto7"
+        />
+      </div>
+      <div className="moreAboutPresto">
+        <p>
+          Learn more about the project at{" "}
+          <a href="https://www.prestoclinic.cat/" target="_blank">
+            prestoclinic.cat
+          </a>
+        </p>
       </div>
       <div className="text-end">
         <div
