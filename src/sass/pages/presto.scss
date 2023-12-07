@@ -1,22 +1,18 @@
 .prestoTextCont {
     width: 770px;
     margin: auto;
-
     // display: flex;
     // justify-content: center;
     // flex-direction: column;
     @media (max-width: 600px) {
         width: 100%;
     }
-
     h4 {
         margin-bottom: 36px;
     }
-
     h2 {
         margin-bottom: 36px;
     }
-
     p {
         width: 100%;
         font-size: 19px;
@@ -30,31 +26,25 @@
     position: relative;
     width: 100%;
     height: 400px;
-
     @media (max-width: 600px) {
         position: initial;
         width: 100%;
         height: 100%;
     }
-
     &__img {
         position: absolute;
-
         @media (max-width: 600px) {
             position: initial;
         }
-
         img {
             width: 820px;
             height: 400px;
-
             @media (max-width: 600px) {
                 width: 364px;
                 height: 234px;
             }
         }
     }
-
     &__text {
         width: 526px;
         height: 170px;
@@ -68,7 +58,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
         @media (max-width: 600px) {
             margin-top: 15px;
             width: 364px;
@@ -79,7 +68,6 @@
             top: initial;
             transform: none;
         }
-
         h4 {
             font-size: 18px;
             line-height: 27px;
@@ -90,7 +78,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-
             @media (max-width: 600px) {
                 font-size: 16px;
                 padding: 20px;
@@ -108,38 +95,31 @@
     margin: auto;
     margin-top: 60px;
     margin-bottom: 76px;
-
     @media (max-width: 600px) {
         width: 100%;
         margin-top: 0px;
         margin-bottom: 0px;
     }
-
     h1 {
         width: 255px;
         font-size: 63px;
         line-height: 82px;
-
         @media (max-width: 600px) {
             width: 100%;
         }
     }
-
     h4 {
         width: 255px;
         font-size: 18px;
         line-height: 27px;
-
         @media (max-width: 600px) {
             width: 100%;
         }
     }
-
     p {
         width: 255px;
         font-size: 19px;
         line-height: 35px;
-
         @media (max-width: 600px) {
             width: 100%;
         }
@@ -150,17 +130,24 @@
 .aproachCont {
     width: 100%;
     height: 562px;
-
+    @media (max-width: 600px) {
+        width: 100%;
+        height: 100%;
+    }
     &__text {
         display: flex;
         flex-direction: column;
         height: 100%;
-
+        @media (max-width: 600px) {
+            width: 100%;
+        }
         h2 {
             width: 320px;
             margin-bottom: 20px;
+            @media (max-width: 600px) {
+                width: 100%;
+            }
         }
-
         li {
             margin-left: 40px;
             width: 477px;
@@ -169,19 +156,29 @@
             line-height: 35px;
             margin-top: 9px;
             margin-bottom: 9px;
+            @media (max-width: 600px) {
+                width: 100%;
+                margin-left: 0px;
+            }
         }
-
         p {
+            text-align: start;
             width: 477px;
+            height: 140px;
             font-size: 19px;
             line-height: 35px;
+            @media (max-width: 600px) {
+                width: 100%;
+            }
         }
     }
-
     &__imgs {
         position: relative;
         height: 100%;
-
+        @media (max-width: 600px) {
+            position: initial;
+            width: 100%;
+        }
         &__img1 {
             position: absolute;
             left: 0;
@@ -190,8 +187,15 @@
             width: 574px;
             height: 414px;
             z-index: 1;
+            @media (max-width: 600px) {
+                width: 364px;
+                height: 200px;
+                position: initial;
+                left: initial;
+                top: initial;
+                transform: none;
+            }
         }
-
         &__img2 {
             position: absolute;
             right: 0;
@@ -200,6 +204,68 @@
             width: 477px;
             height: 562px;
             z-index: 0;
+            @media (max-width: 600px) {
+                width: 364px;
+                height: 340px;
+                position: initial;
+                right: initial;
+                top: initial;
+                transform: none;
+            }
+        }
+    }
+}
+
+.imgPresto4 {
+    width: 100%;
+    height: 606px;
+    margin-top: 20px;
+    @media (max-width: 600px) {
+        width: 100%;
+        height: 269px;
+    }
+}
+
+.imgPresto5 {
+    width: 100%;
+    height: 606px;
+    margin-top: 20px;
+    @media (max-width: 600px) {
+        width: 100%;
+        height: 269px;
+    }
+}
+
+.imgPresto6 {
+    width: 100%;
+    height: 824px;
+    margin-top: 20px;
+    @media (max-width: 600px) {
+        width: 100%;
+        height: 269px;
+    }
+}
+
+.imgPresto7 {
+    width: 100%;
+    height: 100%;
+    @media (max-width: 600px) {
+        width: 100%;
+        height: 269px;
+    }
+}
+
+.moreAboutPresto {
+    height: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-size: 19px;
+        color: text-color;
+        a {
+            color: #FFFFFF !important;
+            text-decoration: underline !important;
         }
     }
 }
