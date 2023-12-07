@@ -44,18 +44,20 @@ const Presto = () => {
         <KeyProblems keyProblems={keyProblems} />
       </div>
       <div className="row aproachCont">
-        <div className="col-6 aproachCont__text">
-          <h2>{aproach.title}</h2>
-          <ul>
-            {aproach.list.map((item, index) => (
-              <>
-                <li key={index}>{item}</li>
-              </>
-            ))}
-          </ul>
-          <p>{aproach.description}</p>
+        <div className="col-sm-6 col-12 ">
+          <div className="aproachCont__text">
+            <h2>{aproach.title}</h2>
+            <ul>
+              {aproach.list.map((item, index) => (
+                <>
+                  <li key={index}>{item}</li>
+                </>
+              ))}
+            </ul>
+            <p>{aproach.description}</p>
+          </div>
         </div>
-        <div className="col-6 aproachCont__imgs">
+        <div className="col-sm-6 col-12  aproachCont__imgs">
           <img
             src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791196/tiliportoflio/presto/Project-Presto-4_ebjlmm.png"
             alt="imagenPresto2"
