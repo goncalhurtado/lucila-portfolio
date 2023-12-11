@@ -42,20 +42,24 @@
 
     @media (max-width: 414px) {
         display: block;
-        padding-left: 10px;
         padding-right: 10px;
         width: 100%;
-        font-size: 45px;
+        font-size: 32px;
+        line-height: 48px;
         word-wrap: break-word;
     }
 }
 
 // Services
 .servicesCont {
+    h2 {
+        margin-top: -100px;
 
-    // h2 {
-    //     margin-bottom: 50px;
-    // }
+        @media (max-width: 414px) {
+            margin-top: 0;
+        }
+    }
+
     .col-12 {
         margin-bottom: 50px;
     }
