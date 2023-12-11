@@ -20,14 +20,6 @@ const customStyles = {
 
 const WorkTableMobile = () => {
   const columns = [
-    // {
-    //   selector: (row) => (
-    //     <h4 className="pe-4" style={{ fontSize: "18px" }}>
-    //       {row.date}
-    //     </h4>
-    //   ),
-    //   width: "140px",
-    // },
     {
       selector: (row) => (
         <>
