@@ -15,7 +15,7 @@ function App() {
         <Route path="/portfolio/presto" element={<Presto />} />
         <Route path="/portfolio/simile" element={<Simile />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

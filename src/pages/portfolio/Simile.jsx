@@ -21,14 +21,14 @@ const Simile = () => {
         <p>{info.description}</p>
       </div>
 
-      <div className="row aproachCont">
+      <div className="row prestoAproachCont">
         <div className="col-12 col-lg-6">
-          <div className="aproachCont__text">
+          <div className="prestoAproachCont__text">
             <h2>{aproach.title}</h2>
             <p>{aproach.description}</p>
           </div>
         </div>
-        <div className="col-sm-6 col-12  aproachCont__imgs">
+        <div className="col-sm-6 col-12  prestoAproachCont__imgs">
           {/* <img
             src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791196/tiliportoflio/presto/Project-Presto-4_ebjlmm.png"
             alt="imagenPresto2"
