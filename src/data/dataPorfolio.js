@@ -33,10 +33,12 @@ export const presto = {
 
 }
 
-export const simile = [{
-    "title": "Simile",
-    "objetive": "Powerful web app to recognize and measure metaphors on consumers behavior",
-    "description": "Simile Analyst Tool is a quantitative and qualitative metaphor recognition and measurement survey tool used to understand the consumers’ behavior when making decisions about certain brands.",
+export const simile = {
+    "info": {
+        "title": "Simile",
+        "objetive": "Powerful web app to recognize and measure metaphors on consumers behavior",
+        "description": "Simile Analyst Tool is a quantitative and qualitative metaphor recognition and measurement survey tool used to understand the consumers’ behavior when making decisions about certain brands."
+    },
     "keyProblems": [{
         "number": "#1",
         "title": "Overwhelming Volume of Responses ",
@@ -50,6 +52,18 @@ export const simile = [{
         "title": "Tediously Time-Consuming Process",
         "description": "Combining the massive number of survey responses with the limitations of Excel has resulted in a time-consuming process that used to take approximately 14 hours to complete, highlighting the need for a more efficient solution.",
     }, ],
+    "aproach": {
+        "title": "Approach - MVP goals",
+        "description": "Our primary goal was to create a user-friendly tool for analyzing Simile metaphor open-ended responses. In this inaugural app version, we prioritized a core set of features for analyst usability. We identified MVP features through collaborative interviews with stakeholders and analysts, pinpointing essential functionalities for this initial release and excluding out-of-scope elements."
+
+    },
+
+    "design": {
+        "title": "Designing in low and high-fidelity ",
+        "description": "We maintained a straightforward user flow with a drill-down navigation system that starts from the project list, progresses to a detailed project view displaying all the responses, and finally leads to individual response pages. Our wireframe design process prioritized content and information architecture, ensuring comprehensive coverage of all necessary elements. Subsequently, we adopted the 'Ant Design' library to expedite the visual design phase, enabling us to meet our demanding deadline while ensuring rapid development and staying within budget constraints."
+    },
+
+
     "results": [{
 
             "title": "Cutting analysis time significantly ",
@@ -66,4 +80,5 @@ export const simile = [{
 
     ]
 
-}]
+
+}
