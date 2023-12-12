@@ -44,7 +44,7 @@ const Presto = () => {
         <KeyProblems keyProblems={keyProblems} />
       </div>
       <div className="row aproachCont">
-        <div className="col-sm-6 col-12 ">
+        <div className="col-12 col-lg-6">
           <div className="aproachCont__text">
             <h2>{aproach.title}</h2>
             <ul>
@@ -82,14 +82,14 @@ const Presto = () => {
         </p>
       </div>
       <div className="row">
-        <div className="col-sm-6 col-12">
+        <div className="col-lg-6 col-12">
           <img
             src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791196/tiliportoflio/presto/Project-Presto5_tz6eld.png"
             alt="imagenPresto4"
             className="imgPresto4"
           />
         </div>
-        <div className="col-sm-6 col-12">
+        <div className="col-lg-6 col-12">
           <img
             src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791197/tiliportoflio/presto/Project-Presto-6_xuz2kq.png"
             alt="imagenPresto5"
