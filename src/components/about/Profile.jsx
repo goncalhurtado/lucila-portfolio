@@ -12,7 +12,7 @@ const Profile = () => {
           />
         </div>
         <div className="col-12 col-md-6 m-auto">
-          <div className="">
+          <div className="profileText">
             <p>
               In +10 years, my journey as a designer has evolved, and today my
               work reflects not only a passion for design but also a strategic

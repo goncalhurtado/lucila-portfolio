@@ -51,8 +51,10 @@ mark {
 p {
     font-family: "omnes";
     font-weight: 300;
-    font-size: 26px;
-    line-height: 46px;
+    // font-size: 19px;
+    // line-height: 46px;
+    font-size: 20px;
+    line-height: 35px;
 
     @media (max-width: 600px) {
         font-size: 21px;

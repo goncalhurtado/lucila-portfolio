@@ -21,25 +21,24 @@ const Simile = () => {
         <p>{info.description}</p>
       </div>
 
-      <div className="row ">
+      <div className="row">
         <div className="col-sm-12 col-md-6">
           <div className="">
             <h2>{about.title}</h2>
             <p>{about.description}</p>
           </div>
         </div>
-        <div className="col-sm-12 col-md-6">
-          {/* <div className="col-sm-6 col-12  prestoAproachCont__imgsAbout"> */}
-          {/* <img
-            src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791196/tiliportoflio/presto/Project-Presto-4_ebjlmm.png"
-            alt="imagenPresto2"
-            className="aproachCont__imgs__img1About"
+        <div className="col-sm-12 col-md-6 imgSimile">
+          <img
+            src={about.img1}
+            alt="imagenSimile2"
+            className="imgSimile__lead"
           />
           <img
-            src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791196/tiliportoflio/presto/Project-Presto-3_pp48ko.png"
-            alt="imagenPresto3"
-            className="aproachCont__imgs__img2About"
-          /> */}
+            src={about.img2}
+            alt="imagenSimile3"
+            className="imgSimile__background"
+          />{" "}
         </div>
       </div>
       <div>
@@ -54,18 +53,19 @@ const Simile = () => {
             <p>{aproach.description}</p>
           </div>
         </div>
-        <div className="col-sm-6 col-12">
-          {/* <div className="col-sm-6 col-12  prestoAproachCont__imgs"> */}
+        <div className="col-sm-6 col-12 prestoAproachCont__imgs">
+          /*{" "}
           {/* <img
-            src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791196/tiliportoflio/presto/Project-Presto-4_ebjlmm.png"
+            src={aproach.img1}
             alt="imagenPresto2"
             className="aproachCont__imgs__img1"
           />
           <img
-            src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1701791196/tiliportoflio/presto/Project-Presto-3_pp48ko.png"
+            src={aproach.img2}
             alt="imagenPresto3"
             className="aproachCont__imgs__img2"
-          /> */}
+          />{" "} */}
+          */
         </div>
       </div>
 

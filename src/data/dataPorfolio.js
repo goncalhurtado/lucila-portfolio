@@ -41,7 +41,9 @@ export const simile = {
     },
     "about": {
         "title": "About",
-        "description": "The Simile team conducts thousands of surveys to obtain both quantitative and qualitative insights. The Simile Analyst Tool was created to improve the analysis of this survey data, uncovering the underlying metaphors that influence consumer decisions. It is tailored for survey analysts, enabling them to efficiently analyze, categorize, and draw meaningful conclusions from the data, and most important: save time!."
+        "description": "The Simile team conducts thousands of surveys to obtain both quantitative and qualitative insights. The Simile Analyst Tool was created to improve the analysis of this survey data, uncovering the underlying metaphors that influence consumer decisions. It is tailored for survey analysts, enabling them to efficiently analyze, categorize, and draw meaningful conclusions from the data, and most important: save time!.",
+        "img1": "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1702494289/tiliportoflio/simile/similemockup_jycjmn.png",
+        "img2": "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1702494290/tiliportoflio/simile/simile_logo_pjtgic.png"
     },
     "keyProblems": [{
         "number": "#1",
@@ -58,7 +60,9 @@ export const simile = {
     }, ],
     "aproach": {
         "title": "Approach - MVP goals",
-        "description": "Our primary goal was to create a user-friendly tool for analyzing Simile metaphor open-ended responses. In this inaugural app version, we prioritized a core set of features for analyst usability. We identified MVP features through collaborative interviews with stakeholders and analysts, pinpointing essential functionalities for this initial release and excluding out-of-scope elements."
+        "description": "Our primary goal was to create a user-friendly tool for analyzing Simile metaphor open-ended responses. In this inaugural app version, we prioritized a core set of features for analyst usability. We identified MVP features through collaborative interviews with stakeholders and analysts, pinpointing essential functionalities for this initial release and excluding out-of-scope elements.",
+        "img1": "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1702494290/tiliportoflio/simile/Simile_mvp2_vu4jsj.png",
+        "img2": "https://res.cloudinary.com/dhvgi2cmq/image/upload/v1702494290/tiliportoflio/simile/simile_map_vpp9ax.png"
 
     },
 
