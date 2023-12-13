@@ -44,7 +44,6 @@ const About = () => {
         <WorkExperience />
       </div>
       <div
-        // className="contenWraper"
         style={{
           paddingTop: "40px",
           paddingBottom: "80px",
