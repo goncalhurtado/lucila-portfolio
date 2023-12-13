@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import KeyProblems from "../../components/portfolio/KeyProblems";
 import { simile } from "../../data/dataPorfolio.js";
+import Contact from "../../components/about/Contact.jsx";
 
 const Simile = () => {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ const Simile = () => {
         marginTop: "118px",
       }}
     >
-      <div className="text-center prestoTextCont">
+      <div className="text-center simileTextCont">
         <h2>{info.objetive}</h2>
         <p>{info.description}</p>
       </div>
@@ -61,7 +62,7 @@ const Simile = () => {
         }}
       >
         <div className="col-sm-12 col-md-6">
-          <div className="prestoAproachCont__text">
+          <div className="simileAproachText">
             <h2>{aproach.title}</h2>
             <p>{aproach.description}</p>
           </div>
@@ -81,7 +82,7 @@ const Simile = () => {
       </div>
 
       <div
-        className="text-center prestoTextCont"
+        className="text-center simileTextCont"
         style={{
           marginTop: "80px",
         }}
@@ -128,6 +129,7 @@ const Simile = () => {
           })}
         </div>
       </div>
+      <Contact />
     </div>
   );
 };

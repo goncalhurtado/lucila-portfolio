@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <>
+    <div style={{ marginTop: "50px", marginBottom: "50px" }}>
       <h1>Let's talk</h1>
       <div className="contentContact">
         <p>Got a project in mind?</p>
@@ -10,7 +10,7 @@ const Contact = () => {
 
         <a>ludiazspolita@gmail.com</a>
       </div>
-    </>
+    </div>
   );
 };
 
