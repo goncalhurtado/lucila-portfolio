@@ -1,72 +1,32 @@
-//Aproach
-.prestoAproachCont {
-    width: 100%;
-    height: 562px;
+.simileTextCont {
+    width: 770px;
+    margin: auto;
 
-    @media (max-width: 768px) {
-        width: 100%;
-        height: 100%;
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
+    @media (min-width: 601px) and (max-width: 768px) {
+        width: 467px;
     }
 
-    &__text {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-
-        @media (max-width: 768px) {
-            width: 100%;
-        }
-
-        h2 {
-            width: 320px;
-            margin-bottom: 20px;
-
-            @media (min-width: 600px) and (max-width: 768px) {
-                width: 100%;
-            }
-
-            @media (max-width: 600px) {
-                text-align: center;
-                width: 100%;
-            }
-        }
-
-        p {
-            text-align: start;
-            width: 477px;
-            height: 100%;
-            font-size: 19px;
-            line-height: 35px;
-
-            @media (max-width: 768px) {
-                width: 100%;
-            }
-        }
-    }
-}
-
-.imgSimile4 {
-    width: 100%;
-    margin-top: 20px;
-
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         width: 100%;
-        // height: 269px;
-        margin-top: 20px;
     }
 }
 
 // About
 .aboutSimileText {
     padding-Top: 55px;
+
+    @media (min-width: 601px) and (max-width: 768px) {
+        width: 258px;
+    }
 }
 
 .imgSimile {
     position: relative;
     height: 570px;
+
+    @media (min-width: 601px) and (max-width: 769px) {
+        height: 655px;
+    }
 
     &__lead {
         position: absolute;
@@ -76,6 +36,21 @@
         left: 0;
         top: 50%;
         transform: translateY(-50%);
+
+        @media(max-width: 600px) {
+            position: initial;
+            left: initial;
+            top: initial;
+            transform: none;
+            width: 100%;
+            height: 409px;
+        }
+
+        @media (min-width: 601px) and (max-width: 769px) {
+            width: 270px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
     }
 
     &__background {
@@ -84,10 +59,73 @@
         right: 0;
         width: 477px;
         height: 570px;
+
+        @media(max-width: 600px) {
+            position: initial;
+            right: none;
+            width: 100%;
+            height: 409px;
+        }
+
+        @media (min-width: 601px) and (max-width: 769px) {
+            width: 287px;
+            height: 570px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
     }
 }
 
 // Aproach
+.simileAproachText {
+    width: 483px;
+    height: 562px;
+
+    @media (max-width: 600px) {
+        width: 100%;
+        height: 100%;
+    }
+
+    @media (min-width:601px) and (max-width: 768px) {
+        width: 258px;
+        height: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h2 {
+        width: 320px;
+        margin-bottom: 20px;
+
+        @media (max-width: 600px) {
+            text-align: center;
+            width: 100%;
+        }
+
+        @media (min-width: 601px) and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    p {
+        text-align: start;
+        width: 477px;
+        height: 100%;
+        font-size: 19px;
+        line-height: 35px;
+
+        @media (max-width: 600px) {
+            width: 343px;
+        }
+
+        @media (min-width: 601px) and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+}
+
 .imgAproach {
     position: relative;
     height: 653px;
@@ -100,6 +138,20 @@
         left: 0;
         top: 50%;
         transform: translateY(-50%);
+
+        @media (min-width: 601px) and (max-width: 768px) {
+            width: 228px;
+            height: 613px;
+        }
+
+        @media (max-width: 600px) {
+            position: initial;
+            width: 343px;
+            height: 409px;
+            left: initial;
+            top: initial;
+            transform: initial;
+        }
     }
 
     &__background {
@@ -108,5 +160,29 @@
         height: 100%;
         z-index: 1;
         right: 0;
+
+        @media (min-width: 601px) and (max-width: 768px) {
+            width: 287px;
+            height: 613px;
+        }
+
+        @media (max-width: 600px) {
+            position: initial;
+            width: 343px;
+            height: 349px;
+            right: initial;
+        }
+    }
+}
+
+//img
+.imgSimile4 {
+    width: 100%;
+    margin-top: 20px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        // height: 269px;
+        margin-top: 20px;
     }
 }
