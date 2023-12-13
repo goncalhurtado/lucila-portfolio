@@ -1,8 +1,7 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import KeyProblems from "../../components/portfolio/KeyProblems";
 import { simile } from "../../data/dataPorfolio.js";
-import Contact from "../../components/about/Contact.jsx";
-import { useNavigate } from "react-router-dom";
 
 const Simile = () => {
   const navigate = useNavigate();
@@ -21,9 +20,14 @@ const Simile = () => {
         <p>{info.description}</p>
       </div>
 
-      <div className="row">
+      <div
+        className="row"
+        style={{
+          marginTop: "80px",
+        }}
+      >
         <div className="col-sm-12 col-md-6">
-          <div className="">
+          <div className="aboutSimileText">
             <h2>{about.title}</h2>
             <p>{about.description}</p>
           </div>
@@ -41,40 +45,57 @@ const Simile = () => {
           />{" "}
         </div>
       </div>
-      <div>
+      <div
+        style={{
+          marginTop: "80px",
+        }}
+      >
         <h2 className="text-center">Key problems</h2>
         <KeyProblems keyProblems={keyProblems} />
       </div>
 
-      <div className="row prestoAproachCont">
-        <div className="col-12 col-lg-6">
+      <div
+        className="row"
+        style={{
+          marginTop: "80px",
+        }}
+      >
+        <div className="col-sm-12 col-md-6">
           <div className="prestoAproachCont__text">
             <h2>{aproach.title}</h2>
             <p>{aproach.description}</p>
           </div>
         </div>
-        <div className="col-sm-6 col-12 prestoAproachCont__imgs">
-          /*{" "}
-          {/* <img
+        <div className="col-sm-12 col-md-6 imgAproach">
+          <img
             src={aproach.img1}
             alt="imagenPresto2"
-            className="aproachCont__imgs__img1"
+            className="imgAproach__mvp"
           />
           <img
             src={aproach.img2}
             alt="imagenPresto3"
-            className="aproachCont__imgs__img2"
-          />{" "} */}
-          */
+            className="imgAproach__background"
+          />{" "}
         </div>
       </div>
 
-      <div className="text-center prestoTextCont">
+      <div
+        className="text-center prestoTextCont"
+        style={{
+          marginTop: "80px",
+        }}
+      >
         <h2>{design.title}</h2>
         <p>{design.description}</p>
       </div>
 
-      <div className="d-flex flex-column">
+      <div
+        className="d-flex flex-column"
+        style={{
+          marginTop: "80px",
+        }}
+      >
         <img
           src="https://res.cloudinary.com/dhvgi2cmq/image/upload/v1702425748/tiliportoflio/simile/simile_wireframes_nmkipe.png"
           alt="imagenPresto7"
@@ -91,7 +112,7 @@ const Simile = () => {
           className="imgSimile4"
         />
       </div>
-      <div style={{ marginTop: "60px" }}>
+      <div style={{ marginTop: "80px" }}>
         <h2 className="text-center">Results</h2>
         <div className="row">
           {results.map((data, index) => {
