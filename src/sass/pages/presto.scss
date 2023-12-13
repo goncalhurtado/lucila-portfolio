@@ -39,8 +39,7 @@
     }
 
     @media (min-width: 431px) and (max-width: 768px) {
-        position: initial;
-        height: 100%;
+        height: 315px;
     }
 
     &__img {
@@ -53,9 +52,6 @@
         }
 
         @media (min-width: 431px) and (max-width: 768px) {
-            position: initial;
-            display: flex;
-            justify-content: center;
             margin-bottom: 140px;
         }
 
@@ -64,8 +60,8 @@
             height: 400px;
 
             @media (min-width: 431px) and (max-width: 768px) {
-                width: 100%;
-                height: 350px;
+                width: 497px;
+                height: 315px;
             }
 
             @media (max-width: 430px) {
@@ -103,13 +99,8 @@
         }
 
         @media (min-width: 431px) and (max-width: 768px) {
-            margin-top: 90px;
-            width: 100%;
-            height: 200px;
-            position: initial;
-            position: initial;
-            right: initial;
-            top: initial;
+            width: 317px;
+            height: 158px;
         }
 
         h4 {
@@ -124,9 +115,7 @@
             justify-content: center;
 
             @media (min-width: 431px) and (max-width: 768px) {
-                width: 100%;
-                font-size: 18px;
-                padding: 35px;
+                font-size: 16px;
             }
 
             @media (max-width: 430px) {
@@ -322,18 +311,15 @@
 
 .imgPresto5 {
     width: 100%;
-    // height: 606px;
     margin-top: 20px;
 
     @media (max-width: 430px) {
-        // width: 100%;
         height: 269px;
     }
 }
 
 .imgPresto6 {
     width: 100%;
-    // height: 824px;
     margin-top: 20px;
 
     @media (max-width: 430px) {
