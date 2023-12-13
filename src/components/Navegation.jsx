@@ -7,7 +7,7 @@ const Navegation = () => {
   const location = useLocation();
   const navigate = useNavigate();
   return (
-    <div className="">
+    <div className="navegationDisabled">
       <div className="d-none d-md-block">
         <div className="navBar">
           <div className="navBar__home">LDS</div>
@@ -22,7 +22,9 @@ const Navegation = () => {
             </a>
             <a
               className={
-                location.pathname === "/portfolio"
+                location.pathname === "/portfolio" ||
+                location.pathname === "/portfolio/presto" ||
+                location.pathname == "/portfolio/simile"
                   ? "navBar__links__active"
                   : ""
               }
@@ -36,7 +38,7 @@ const Navegation = () => {
           </div>
         </div>
       </div>
-      <div className="d-sm-block d-md-none">
+      <div className="navegationDisabledMobile">
         <NavMobile navigate={navigate} />
       </div>
     </div>

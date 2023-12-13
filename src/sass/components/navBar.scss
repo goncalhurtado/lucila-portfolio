@@ -4,6 +4,10 @@
     padding: 10px 45px;
     align-items: center;
 
+    @media (max-width: 768px) {
+        display: none;
+    }
+
     &__home {
         margin: 10px;
         font-size: 35px;
@@ -39,6 +43,10 @@
     margin-bottom: 106px;
     z-index: 5;
     position: relative;
+
+    @media (min-width: 769px) {
+        display: none;
+    }
 
     &__home {
         // margin: 10px;
@@ -76,15 +84,17 @@
         position: relative;
 
         a {
+            cursor: pointer;
+            text-decoration: none;
             color: $text-color !important;
             font-size: 35px;
             animation: myAnim 1s ease 0s 1 normal forwards;
         }
 
-        .activeLink {
-            color: $text-color !important;
-            font-size: 35px;
-            background-color: red;
+        &__active {
+            color: $text-color;
+            padding-bottom: 5px;
+            border-bottom: solid 1.5px $text-color;
         }
 
         .linkedinMobile {
