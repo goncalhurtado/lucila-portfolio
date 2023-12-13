@@ -2,34 +2,16 @@
     width: 620px;
     height: 606px;
 
-    @media (max-width: 414px) {
+    @media (max-width: 430px) {
         width: 343px;
         height: 350px;
         display: flex;
-
-        .imgProfileCont {
-            display: flex;
-            justify-content: center;
-            background-color: red;
-            width: 100%;
-            height: 100%;
-        }
     }
 
-    @media (max-width: 768px) {
-        .imgProfileCont {
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            width: 50px !important;
-            background-color: red;
-
-            .profilePic {
-                width: 30px !important;
-                height: 100%;
-                display: flex;
-            }
-        }
+    @media (min-width: 431px) and (max-width: 768px) {
+        width: 443px;
+        height: 450px;
+        margin: auto;
     }
 }
 
