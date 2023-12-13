@@ -39,6 +39,10 @@ export const simile = {
         "objetive": "Powerful web app to recognize and measure metaphors on consumers behavior",
         "description": "Simile Analyst Tool is a quantitative and qualitative metaphor recognition and measurement survey tool used to understand the consumers’ behavior when making decisions about certain brands."
     },
+    "about": {
+        "title": "About",
+        "description": "The Simile team conducts thousands of surveys to obtain both quantitative and qualitative insights. The Simile Analyst Tool was created to improve the analysis of this survey data, uncovering the underlying metaphors that influence consumer decisions. It is tailored for survey analysts, enabling them to efficiently analyze, categorize, and draw meaningful conclusions from the data, and most important: save time!."
+    },
     "keyProblems": [{
         "number": "#1",
         "title": "Overwhelming Volume of Responses ",
