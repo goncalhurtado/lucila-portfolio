@@ -40,10 +40,12 @@ const Presto = () => {
       </div>
 
       <div>
-        <h2 className="text-center">Key problems</h2>
+        <h2 className="text-center" style={{ marginTop: "80px" }}>
+          Key problems
+        </h2>
         <KeyProblems keyProblems={keyProblems} />
       </div>
-      <div className="row aproachCont">
+      <div className="row aproachCont" style={{ marginTop: "80px" }}>
         <div className="col-12 col-lg-6">
           <div className="aproachCont__text">
             <h2>{aproach.title}</h2>

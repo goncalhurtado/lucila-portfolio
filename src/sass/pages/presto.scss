@@ -201,14 +201,15 @@
         height: 100%;
         margin-top: 40px;
         margin-left: -40px;
+        margin: auto;
     }
 
     &__text {
         display: flex;
         flex-direction: column;
         height: 100%;
-        margin-left: 60px;
 
+        // margin-left: 60px;
         @media (max-width: 768px) {
             width: 100%;
         }
@@ -255,8 +256,10 @@
         height: 100%;
 
         @media (max-width: 768px) {
+            // background-color: red;
             position: initial;
             width: 100%;
+            margin: auto;
         }
 
         &__img1 {
@@ -269,8 +272,10 @@
             z-index: 1;
 
             @media (max-width: 768px) {
-                width: 364px;
-                height: 200px;
+                // margin: auto;
+                margin-top: 20px;
+                width: 100%;
+                height: 100%;
                 position: initial;
                 left: initial;
                 top: initial;
@@ -288,8 +293,10 @@
             z-index: 0;
 
             @media (max-width: 768px) {
-                width: 364px;
-                height: 340px;
+                display: none;
+                margin: auto;
+                width: 100%;
+                // height: 340px;
                 position: initial;
                 right: initial;
                 top: initial;
