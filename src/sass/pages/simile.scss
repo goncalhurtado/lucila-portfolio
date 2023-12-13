@@ -58,3 +58,55 @@
         margin-top: 20px;
     }
 }
+
+// About
+.aboutSimileText {
+    padding-Top: 55px;
+}
+
+.imgSimile {
+    position: relative;
+    height: 570px;
+
+    &__lead {
+        position: absolute;
+        z-index: 2;
+        width: 477px;
+        height: 497px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &__background {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        width: 477px;
+        height: 570px;
+    }
+}
+
+// Aproach
+.imgAproach {
+    position: relative;
+    height: 653px;
+
+    &__mvp {
+        position: absolute;
+        width: 379px;
+        height: 100%;
+        z-index: 2;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &__background {
+        position: absolute;
+        width: 477px;
+        height: 100%;
+        z-index: 1;
+        right: 0;
+    }
+}

@@ -153,6 +153,12 @@
         margin-bottom: 0px;
     }
 
+    @media (max-width: 768px) and (min-width: 601px) {
+        width: 168px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
     h1 {
         width: 255px;
         font-size: 63px;
@@ -161,16 +167,17 @@
         @media (max-width: 600px) {
             width: 100%;
         }
-
-        // @media (min-width: 601px) and (max-width: 768px) {
-        //     background-color: red;
-        // }
     }
 
     h4 {
         width: 255px;
         font-size: 18px;
         line-height: 27px;
+
+        @media (max-width: 768px) and (min-width: 601px) {
+            width: 168px;
+            font-size: 16px;
+        }
 
         @media (max-width: 600px) {
             width: 100%;
@@ -181,6 +188,13 @@
         width: 255px;
         font-size: 19px;
         line-height: 35px;
+
+        @media (max-width: 768px) and (min-width: 601px) {
+            width: 168px;
+            font-size: 16px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
 
         @media (max-width: 600px) {
             width: 100%;
