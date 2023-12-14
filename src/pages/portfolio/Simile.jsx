@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import KeyProblems from "../../components/portfolio/KeyProblems";
 import { simile } from "../../data/dataPorfolio.js";
 import Contact from "../../components/about/Contact.jsx";
+import ScrollTop from "../../components/ScrollTop.jsx";
 
 const Simile = () => {
   const navigate = useNavigate();
@@ -128,6 +129,9 @@ const Simile = () => {
             );
           })}
         </div>
+      </div>
+      <div style={{ marginTop: "50px", marginBottom: "50px" }}>
+        <ScrollTop />
       </div>
       <Contact />
     </div>

@@ -39,7 +39,7 @@ const WorkTableMobile = () => {
           </p>
         </>
       ),
-      width: "160px",
+      width: "143px",
     },
     {
       selector: (row) => (
@@ -54,7 +54,7 @@ const WorkTableMobile = () => {
           {row.rol}
         </p>
       ),
-      width: "210px",
+      width: "200px",
     },
   ];
 

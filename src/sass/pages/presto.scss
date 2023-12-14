@@ -1,23 +1,18 @@
 .prestoTextCont {
     width: 770px;
     margin: auto;
-
     @media (min-width: 431px) and (max-width: 768px) {
         width: 100%;
     }
-
     @media (max-width: 430px) {
         width: 100%;
     }
-
     h4 {
         margin-bottom: 36px;
     }
-
     h2 {
         margin-bottom: 36px;
     }
-
     p {
         width: 100%;
         font-size: 19px;
@@ -31,46 +26,37 @@
     position: relative;
     width: 100%;
     height: 400px;
-
     @media (max-width: 430px) {
         position: initial;
         width: 100%;
         height: 100%;
     }
-
     @media (min-width: 431px) and (max-width: 768px) {
         height: 315px;
     }
-
     &__img {
         position: absolute;
-
         @media (max-width: 430px) {
             position: initial;
             display: flex;
             justify-content: center;
         }
-
         @media (min-width: 431px) and (max-width: 768px) {
             margin-bottom: 140px;
         }
-
         img {
             width: 820px;
             height: 400px;
-
             @media (min-width: 431px) and (max-width: 768px) {
                 width: 497px;
                 height: 315px;
             }
-
             @media (max-width: 430px) {
                 width: 364px;
                 height: 234px;
             }
         }
     }
-
     &__text {
         width: 526px;
         height: 170px;
@@ -84,7 +70,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
         @media (max-width: 430px) {
             margin-top: 15px;
             width: 100%;
@@ -97,12 +82,10 @@
             display: flex;
             justify-content: center;
         }
-
         @media (min-width: 431px) and (max-width: 768px) {
             width: 317px;
             height: 158px;
         }
-
         h4 {
             font-size: 18px;
             line-height: 27px;
@@ -113,11 +96,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
-
             @media (min-width: 431px) and (max-width: 768px) {
                 font-size: 16px;
             }
-
             @media (max-width: 430px) {
                 font-size: 16px;
                 padding: 20px;
@@ -135,56 +116,46 @@
     margin: auto;
     margin-top: 60px;
     margin-bottom: 76px;
-
     @media (max-width: 430px) {
         width: 100%;
         margin-top: 0px;
         margin-bottom: 0px;
     }
-
     @media (max-width: 768px) and (min-width: 431px) {
         width: 168px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
-
     h1 {
         width: 255px;
         font-size: 63px;
         line-height: 82px;
-
         @media (max-width: 430px) {
             width: 100%;
         }
     }
-
     h4 {
         width: 255px;
         font-size: 18px;
         line-height: 27px;
-
         @media (max-width: 768px) and (min-width: 431px) {
             width: 168px;
             font-size: 16px;
         }
-
         @media (max-width: 430px) {
             width: 100%;
         }
     }
-
     p {
         width: 255px;
         font-size: 19px;
         line-height: 35px;
-
         @media (max-width: 768px) and (min-width: 431px) {
             width: 168px;
             font-size: 16px;
             margin-top: 0px;
             margin-bottom: 0px;
         }
-
         @media (max-width: 430px) {
             width: 100%;
         }
@@ -195,7 +166,6 @@
 .aproachCont {
     width: 100%;
     height: 562px;
-
     @media (max-width: 768px) {
         width: 100%;
         height: 100%;
@@ -203,25 +173,20 @@
         margin-left: -40px;
         margin: auto;
     }
-
     &__text {
         display: flex;
         flex-direction: column;
         height: 100%;
-
         @media (max-width: 768px) {
             width: 100%;
         }
-
         h2 {
             width: 320px;
             margin-bottom: 20px;
-
             @media (max-width: 430px) {
                 width: 100%;
             }
         }
-
         li {
             width: 477px;
             list-style-type: disc;
@@ -229,37 +194,31 @@
             line-height: 35px;
             margin-top: 9px;
             margin-bottom: 9px;
-
             @media (max-width: 430px) {
                 width: 100%;
                 margin-left: 40px;
                 margin-left: 0px;
             }
         }
-
         p {
             text-align: start;
             width: 477px;
             height: 140px;
             font-size: 19px;
             line-height: 35px;
-
             @media (max-width: 768px) {
                 width: 100%;
             }
         }
     }
-
     &__imgs {
         position: relative;
         height: 100%;
-
         @media (max-width: 768px) {
             position: initial;
             width: 100%;
             margin: auto;
         }
-
         &__img1 {
             position: absolute;
             left: 0;
@@ -268,7 +227,6 @@
             width: 574px;
             height: 414px;
             z-index: 1;
-
             @media (max-width: 768px) {
                 margin-top: 20px;
                 width: 100%;
@@ -279,7 +237,6 @@
                 transform: none;
             }
         }
-
         &__img2 {
             position: absolute;
             right: 0;
@@ -288,7 +245,6 @@
             width: 477px;
             height: 562px;
             z-index: 0;
-
             @media (max-width: 768px) {
                 display: none;
                 margin: auto;
@@ -305,7 +261,6 @@
 .imgPresto4 {
     width: 100%;
     margin-top: 20px;
-
     @media (max-width: 430px) {
         width: 100%;
         height: 269px;
@@ -315,7 +270,6 @@
 .imgPresto5 {
     width: 100%;
     margin-top: 20px;
-
     @media (max-width: 430px) {
         height: 269px;
     }
@@ -324,7 +278,6 @@
 .imgPresto6 {
     width: 100%;
     margin-top: 20px;
-
     @media (max-width: 430px) {
         width: 100%;
         height: 269px;
@@ -336,7 +289,6 @@
     width: 100%;
     height: 100%;
     margin-top: 20px;
-
     @media (max-width: 430px) {
         margin-top: 20px;
         width: 100%;
@@ -349,11 +301,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     p {
         font-size: 19px;
         color: text-color;
-
         a {
             color: #FFFFFF !important;
             text-decoration: underline !important;
