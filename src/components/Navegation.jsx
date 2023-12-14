@@ -10,7 +10,13 @@ const Navegation = () => {
     <div className="navegationDisabled">
       <div className="d-none d-md-block">
         <div className="navBar">
-          <div className="navBar__home">LDS</div>
+          <div
+            className="navBar__home"
+            onClick={() => navigate("/")}
+            style={{ cursor: "pointer" }}
+          >
+            LDS
+          </div>
           <div className="navBar__links">
             <a
               className={
