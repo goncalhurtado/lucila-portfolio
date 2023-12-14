@@ -29,7 +29,7 @@ const WorkTableMobile = () => {
 
           <p
             style={{
-              fontSize: "19px",
+              fontSize: "20px",
               lineHeight: "30px",
               wordWrap: "break-word",
               whiteSpace: "normal",
@@ -39,7 +39,7 @@ const WorkTableMobile = () => {
           </p>
         </>
       ),
-      width: "143px",
+      width: "200px",
     },
     {
       selector: (row) => (
@@ -54,7 +54,7 @@ const WorkTableMobile = () => {
           {row.rol}
         </p>
       ),
-      width: "200px",
+      width: "object-fit",
     },
   ];
 
