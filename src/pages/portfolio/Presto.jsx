@@ -3,6 +3,7 @@ import KeyProblems from "../../components/portfolio/KeyProblems";
 import { presto } from "../../data/dataPorfolio.js";
 import Contact from "../../components/about/Contact.jsx";
 import { useNavigate } from "react-router-dom";
+import ScrollTop from "../../components/ScrollTop.jsx";
 
 const Presto = () => {
   const navigate = useNavigate();
@@ -139,14 +140,7 @@ const Presto = () => {
           </a>
         </p>
       </div>
-      <div className="text-end">
-        <div
-          className="btn btn-primary"
-          onClick={() => navigate("/porfolio/simile")}
-        >
-          Simile
-        </div>
-      </div>
+      <ScrollTop />
       <Contact />
     </div>
   );
