@@ -22,11 +22,12 @@ const WorkTable = () => {
   const columns = [
     {
       selector: (row) => (
-        <h4 className="pe-4" style={{ fontSize: "18px" }}>
+        <h4 className="" style={{ fontSize: "18px" }}>
           {row.date}
         </h4>
       ),
-      width: "140px",
+      width: "180px",
+      textAlign: "center",
     },
     {
       selector: (row) => <p style={{ fontSize: "19px" }}>{row.company}</p>,
