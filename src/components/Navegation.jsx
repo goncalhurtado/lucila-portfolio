@@ -6,6 +6,11 @@ import NavMobile from "./NavMobile";
 const Navegation = () => {
   const location = useLocation();
   const navigate = useNavigate();
+
+  const handleLinkedin = () => {
+    window.open("https://www.linkedin.com/in/luciladiazspolita/", "_blank");
+  };
+
   return (
     <div className="navegationDisabled">
       <div className="d-none d-md-block">
@@ -38,7 +43,7 @@ const Navegation = () => {
             >
               Portfolio
             </a>
-            <a>
+            <a onClick={() => handleLinkedin()}>
               <FaLinkedinIn className="mb-1" size={18} />
             </a>
           </div>
