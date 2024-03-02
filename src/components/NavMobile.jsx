@@ -7,6 +7,11 @@ import { useLocation } from "react-router-dom";
 const NavMobile = ({ navigate }) => {
   const [showMenu, setshowMenu] = useState(false);
   const location = useLocation();
+
+  const handleLinkedin = () => {
+    window.open("https://www.linkedin.com/in/luciladiazspolita/", "_blank");
+  };
+
   return (
     <>
       <div className="navMobile row ">
@@ -46,7 +51,9 @@ const NavMobile = ({ navigate }) => {
             Portfolio
           </a>
           <div>
-            <FaLinkedinIn className="linkedinMobile" size={30} />
+            <a onClick={() => handleLinkedin()}>
+              <FaLinkedinIn className="linkedinMobile" size={30} />
+            </a>
           </div>
         </div>
       </div>

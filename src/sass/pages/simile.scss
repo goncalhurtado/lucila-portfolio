@@ -20,24 +20,30 @@
 .imgSimile {
     position: relative;
     height: 570px;
+    
     @media (min-width: 431px) and (max-width: 769px) {
         height: 655px;
     }
+    @media (max-width: 375px) {
+        height: auto;
+    }
     &__lead {
+     
         position: absolute;
         z-index: 2;
-        width: 477px;
-        height: 497px;
+        // width: 477px;
+        width: 550px;
+        // height: 497px;
         left: 0;
         top: 50%;
         transform: translateY(-50%);
-        @media(max-width: 430px) {
+        @media(max-width: 375px) {
             position: initial;
             left: initial;
             top: initial;
             transform: none;
             width: 100%;
-            height: 409px;
+            height: 320px;
         }
         @media (min-width: 431px) and (max-width: 769px) {
             width: 270px;
@@ -51,11 +57,11 @@
         right: 0;
         width: 477px;
         height: 570px;
-        @media(max-width: 430px) {
+        @media(max-width: 375px) {
             position: initial;
             right: none;
-            width: 100%;
-            height: 409px;
+            // width: 100%;
+           display: none;
         }
         @media (min-width: 431px) and (max-width: 769px) {
             width: 287px;
@@ -68,6 +74,7 @@
 
 // Aproach
 .simileAproachText {
+  
     width: 483px;
     height: 562px;
     @media (max-width: 430px) {
