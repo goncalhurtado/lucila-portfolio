@@ -1,23 +1,22 @@
 export const strategy = {
+  title: "Strategy",
+  items: [
+    "Business design",
+    "Product thinking",
+    "Information architecture",
 
-    "title": "Strategy",
-    "items": [
-        "Business design",
-        "Product thinking",
-        "Information architecture",
-
-        "User Research"
-    ]
-}
+    "User Research",
+  ],
+};
 export const design = {
-    "title": "Design",
-    "items": [
-        "User flows",
-        "Wireframes",
-        "Interaction design",
-        "Pixel-perfect mockups",
-        "Branding",
-        "Data visualization",
-        "Prototyping"
-    ]
-}
+  title: "Design",
+  items: [
+    "User flows",
+    "Wireframes",
+    "Interaction design",
+    // "Pixel-perfect mockups",
+    "Branding",
+    "Data visualization",
+    "Prototyping",
+  ],
+};
